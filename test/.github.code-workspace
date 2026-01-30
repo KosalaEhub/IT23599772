@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.github"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../playwright-report"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../test-results"
+		}
+	]
+}

@@ -61,18 +61,56 @@ const testCases = [
   },
 
   // Negative cases
-  { id: 'Neg_Fun_0001', input: 'kg 10', expected: 'kg 10' },
-  { id: 'Neg_Fun_0002', input: 'mamakadetayanavaa', expected: 'මමකඩෙටයනවා' },
-  { id: 'Neg_Fun_0003', input: 'ela machan supiri pothak', expected: 'එල මචන් සුපිරි පොතක්' },
+  { id: 'Neg_Fun_0001', input: 'kg 10', expected: '10 kg' },
+  { id: 'Neg_Fun_0002', input: 'mamakadetayanavaa', expected: 'මම කඩෙට යනවා' },
+  { id: 'Neg_Fun_0003', input: 'ela machan supiri pothak', expected: 'මෙක සුපිරි පොතක්' },
+
   {
     id: 'Neg_Fun_0005',
     input: 'mata   raeeta kanna nudils    oonee.',
-    expected: 'මට  රෑට කන්න නුඩිල්ස්     ඕනේ.'
+    expected: 'මට රෑට කන්න නුඩිල්ස් ඕනේ.'
   },
   {
     id: 'Neg_Fun_0009',
     input: 'Mama heta     gedhara  yana    vaa',
-    expected: 'මම හෙට ගෙදර යන වා'
+    expected: 'මම හෙට ගෙදර යනවා'
+  },
+   {
+    id: 'Neg_Fun_0004',
+    input: ' suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava saDHahan kaLeeya.'
+,
+    expected: 'සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇත.'}, 
+
+   {
+    id: 'Neg_Fun_0006',
+    input: 'siraavata uba oya kohedha yanna yanne',
+    expected: 'ඇත්තට ඔයා ඔය කොහෙද යන්න යන්නෙ'},
+
+   {
+    id: 'Neg_Fun_0007',
+    input: 'adhaapibathkamu',
+
+    expected: 'අද අපි බත් කමු'},
+
+   {
+    id: 'Neg_Fun_0010',
+    input: 'Ado ishan uba kohedha yanne?',
+
+    expected: 'හෙලො ඉශන් ඔයා කොහෙද යන්නෙ?'},
+
+   {
+    id: 'Neg_Fun_0008',
+    input: 'km 10',
+
+    expected: '10 km'
+  },
+   {
+    id: 'Pos_UI_0001',
+
+    input: 'mama gedhara yanavaa',
+
+
+    expected: 'Updates in real-time',
   }
 ];
 
